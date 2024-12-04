@@ -102,22 +102,21 @@ const GlamourGallery = () => {
         </div>
       )}
 
-     {/* Testimonials Section */}
-<section className="py-20 px-6 bg-gray-50">
-  <h2 className="text-3xl font-semibold text-center text-gray-800 mb-12">What Our Clients Say</h2>
-  <div className="space-y-8 lg:grid lg:grid-cols-2 lg:gap-8">
-    <div className="testimonial-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-      <p className="italic text-lg text-gray-600 mb-4">"I had my bridal makeup done here and it was fantastic! The team was professional, and my makeup stayed perfect all day!"</p>
-      <p className="font-semibold text-center text-gray-800">- Ayesha, Bride</p>
-    </div>
-    
-    <div className="testimonial-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-      <p className="italic text-lg text-gray-600 mb-4">"Their facial treatments are amazing! I feel so refreshed every time I visit. Highly recommend!"</p>
-      <p className="font-semibold text-center text-gray-800">- Sara, Regular Client</p>
-    </div>
-  </div>
-</section>
-
+      {/* Testimonials Section */}
+      <section className="py-20 px-6 bg-gray-50">
+        <h2 className="text-3xl font-semibold text-center text-gray-800 mb-12">What Our Clients Say</h2>
+        <div className="space-y-8 lg:grid lg:grid-cols-2 lg:gap-8">
+          <div className="testimonial-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <p className="italic text-lg text-gray-600 mb-4">&quot;I had my bridal makeup done here and it was fantastic! The team was professional, and my makeup stayed perfect all day!&quot;</p>
+            <p className="font-semibold text-center text-gray-800">- Ayesha, Bride</p>
+          </div>
+          
+          <div className="testimonial-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <p className="italic text-lg text-gray-600 mb-4">&quot;Their facial treatments are amazing! I feel so refreshed every time I visit. Highly recommend!&quot;</p>
+            <p className="font-semibold text-center text-gray-800">- Sara, Regular Client</p>
+          </div>
+        </div>
+      </section>
 
       {/* Social Media Links Section */}
       <section className="py-16 px-6 bg-pink-500 text-white text-center">
@@ -162,6 +161,7 @@ const GlamourGallery = () => {
 };
 
 export default GlamourGallery;
+
 
 
 
