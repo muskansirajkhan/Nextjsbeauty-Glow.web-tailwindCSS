@@ -1,10 +1,14 @@
 # Ensure that text files use proper line endings (LF)
 * text=auto
-
-# Force LF line endings for specific types of files
-*.js text eol=lf
+# Ensure proper line endings for specific files
 *.json text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
 *.css text eol=lf
 *.html text eol=lf
+*.config.js text eol=lf
+
 
 
